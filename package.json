@@ -1,0 +1,16 @@
+
+{
+  "name": "aria-lifesync",
+  "version": "1.0.0",
+  "description": "Aria LifeSync - Hija Sintética",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html manifest.json index.tsx dist/ && echo 'Build complete'"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "lucide-react": "^0.563.0",
+    "@google/genai": "^1.39.0"
+  }
+}
