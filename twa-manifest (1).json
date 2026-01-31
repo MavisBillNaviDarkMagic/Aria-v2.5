@@ -1,0 +1,22 @@
+
+{
+  "packageId": "com.christenrico.aria.lifesync",
+  "host": "localhost",
+  "name": "Aria: LifeSync",
+  "shortName": "Aria",
+  "display": "standalone",
+  "themeColor": "#030308",
+  "navigationColor": "#030308",
+  "backgroundColor": "#030308",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://cdn-icons-png.flaticon.com/512/825/825590.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./aria_debug.keystore",
+    "alias": "aria_alias"
+  },
+  "appVersionCode": 1,
+  "appVersionName": "1.0.0",
+  "generatorApp": "bubblewrap-cli"
+}
